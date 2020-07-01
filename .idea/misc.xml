@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/../jsg-cdss/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/../jsg-cdss/common/pom.xml" />
+        <option value="$PROJECT_DIR$/../jsg-cdss/config/pom.xml" />
+        <option value="$PROJECT_DIR$/../jsg-cdss/generalService/pom.xml" />
+        <option value="$PROJECT_DIR$/../jsg-cdss/klgbaseService/pom.xml" />
+        <option value="$PROJECT_DIR$/../jsg-cdss/loginService/pom.xml" />
+        <option value="$PROJECT_DIR$/../jsg-cdss/pom.xml" />
+        <option value="$PROJECT_DIR$/../jsg-cdss/proxy/pom.xml" />
+        <option value="$PROJECT_DIR$/../jsg-cdss/registry/pom.xml" />
+        <option value="$PROJECT_DIR$/../jsg-cdss/systemService/pom.xml" />
+        <option value="$PROJECT_DIR$/../jsg-cdss/txManager/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>SQL</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>SqlNoDataSourceInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/classes" />
+  </component>
+</project>

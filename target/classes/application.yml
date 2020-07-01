@@ -1,0 +1,37 @@
+#配置应用端口
+server:
+  port: 10001
+#配置统一访问前缀
+  servlet:
+    context-path: /jsgapi
+#激活配置文件(数据源、定时任务、缓存)
+spring:
+  profiles:
+    active: datasource
+jsg:
+  healthcard:
+    url: http://59.213.167.131:7001/dzmaster_ts/
+    scurl: http://59.213.167.131:7002
+    AESKey: D7A081E7FD4C10BE
+    MD5Key: 2eefc504df414c9a9d67049a9f79fbe6
+    #组织机构代码
+    terminalcode: "125114224523722007_"
+
+logging:
+  config: classpath:logback.xml
+
+
+
+#  宣汉县妇幼保健院接入电子健康卡信息
+  #    url: https://dzjkk.jkdzw.com.cn/dzmaster_ts/
+#
+#  secret（MD5签名）：2eefc504df414c9a9d67049a9f79fbe6
+#
+#  appid：6d8bb1b860724faa97164e87b654cd3c
+#
+#  key（数据AES加密）：D7A081E7FD4C10BE
+#
+#  外网访问根地址：https://dzjkk.jkdzw.com.cn/dzmaster_ts/
+#
+#  医院内网访问根地址：http://59.213.167.131:7001/dzmaster_ts/
+# 511623199410060217

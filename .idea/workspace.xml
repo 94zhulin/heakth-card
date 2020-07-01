@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="dzfb-health-card:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d30eaf29-8f2f-4fc5-8f43-3befa0187a1f" name="Default" comment="springboot + mybatis plus">
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/cdss.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/qualificationService/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/qualificationService/qualificationService.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/qualificationService/src/main/java/com/jsg/QualificationServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/qualificationService/src/main/java/com/jsg/config/SwaggerConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/qualificationService/src/main/java/com/jsg/controller/BaseinfoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/qualificationService/src/main/java/com/jsg/controller/QualificationsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/qualificationService/src/main/java/com/jsg/dao/mysql/BaseinfoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/qualificationService/src/main/java/com/jsg/dao/mysql/QualificationsMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/qualificationService/src/main/java/com/jsg/dao/mysql/RulesMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/qualificationService/src/main/java/com/jsg/db/config/MySQLDataSourceConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/qualificationService/src/main/java/com/jsg/entity/Baseinfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/qualificationService/src/main/java/com/jsg/entity/QualificationRule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/qualificationService/src/main/java/com/jsg/entity/Qualifications.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/qualificationService/src/main/java/com/jsg/entity/QualificationsObj.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/qualificationService/src/main/java/com/jsg/entity/RuleObj.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/qualificationService/src/main/java/com/jsg/entity/StaffRules.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/qualificationService/src/main/java/com/jsg/entity/Zzs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/qualificationService/src/main/java/com/jsg/entity/pojo/Patients.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/qualificationService/src/main/java/com/jsg/service/BaseinfoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/qualificationService/src/main/java/com/jsg/service/QualificationsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/qualificationService/src/main/java/com/jsg/service/impl/BaseinfoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/qualificationService/src/main/java/com/jsg/service/impl/QualificationsServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/qualificationService/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/qualificationService/src/main/resources/bootstrap.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/qualificationService/src/main/resources/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/qualificationService/src/main/resources/mapping/mysql/BaseinfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/qualificationService/src/main/resources/mapping/mysql/QualificationsMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/qualificationService/src/main/resources/mapping/mysql/RulesMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/ruleService/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/ruleService/.settings/org.eclipse.jdt.apt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/ruleService/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/ruleService/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/ruleService/.settings/org.springframework.ide.eclipse.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/ruleService/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/ruleService/ruleService.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/ruleService/src/main/java/com/jsg/RuleServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/ruleService/src/main/java/com/jsg/config/CorsConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/ruleService/src/main/java/com/jsg/config/SwaggerConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/ruleService/src/main/java/com/jsg/controller/RuleController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/ruleService/src/main/java/com/jsg/dao/mysql/RuleBaseMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/ruleService/src/main/java/com/jsg/dao/mysql/RuleCatalogMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/ruleService/src/main/java/com/jsg/dao/mysql/RuleDroolsMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/ruleService/src/main/java/com/jsg/dao/mysql/RuleItemsMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/ruleService/src/main/java/com/jsg/dao/mysql/RuleValueBooleanMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/ruleService/src/main/java/com/jsg/dao/mysql/RuleValueDateMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/ruleService/src/main/java/com/jsg/dao/mysql/RuleValueDaterangeMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/ruleService/src/main/java/com/jsg/dao/mysql/RuleValueListMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/ruleService/src/main/java/com/jsg/dao/mysql/RuleValueNumberMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/ruleService/src/main/java/com/jsg/dao/mysql/RuleValueNumberrangeMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/ruleService/src/main/java/com/jsg/dao/mysql/RuleValueStringMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/ruleService/src/main/java/com/jsg/dao/mysql/SysRuleaccessLogMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/ruleService/src/main/java/com/jsg/db/config/MySQLDataSourceConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/ruleService/src/main/java/com/jsg/entity/AssociatedItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/ruleService/src/main/java/com/jsg/entity/Conditions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/ruleService/src/main/java/com/jsg/entity/Diagnosis.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/ruleService/src/main/java/com/jsg/entity/Drug.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/ruleService/src/main/java/com/jsg/entity/Examine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/ruleService/src/main/java/com/jsg/entity/HisBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/ruleService/src/main/java/com/jsg/entity/HisPatients.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/ruleService/src/main/java/com/jsg/entity/Historyallergy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/ruleService/src/main/java/com/jsg/entity/Inspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/ruleService/src/main/java/com/jsg/entity/Patients.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/ruleService/src/main/java/com/jsg/entity/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/ruleService/src/main/java/com/jsg/entity/RuleBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/ruleService/src/main/java/com/jsg/entity/RuleCatalog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/ruleService/src/main/java/com/jsg/entity/RuleDrools.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/ruleService/src/main/java/com/jsg/entity/RuleItems.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/ruleService/src/main/java/com/jsg/entity/RuleValueBoolean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/ruleService/src/main/java/com/jsg/entity/RuleValueDate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/ruleService/src/main/java/com/jsg/entity/RuleValueDaterange.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/ruleService/src/main/java/com/jsg/entity/RuleValueList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/ruleService/src/main/java/com/jsg/entity/RuleValueNumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/ruleService/src/main/java/com/jsg/entity/RuleValueNumberrange.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/ruleService/src/main/java/com/jsg/entity/RuleValueString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/ruleService/src/main/java/com/jsg/entity/SysRuleaccessLog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/ruleService/src/main/java/com/jsg/service/RuleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/ruleService/src/main/java/com/jsg/service/impl/RuleServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/ruleService/src/main/java/com/jsg/utils/GenerateRulesUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/ruleService/src/main/java/com/jsg/utils/KnowledgeUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/ruleService/src/main/java/com/jsg/utils/ReflectionUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/ruleService/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/ruleService/src/main/resources/bootstrap.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/ruleService/src/main/resources/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/ruleService/src/main/resources/mapping/mysql/RuleBaseMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/ruleService/src/main/resources/mapping/mysql/RuleCatalogMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/ruleService/src/main/resources/mapping/mysql/RuleDroolsMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/ruleService/src/main/resources/mapping/mysql/RuleItemsMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/ruleService/src/main/resources/mapping/mysql/RuleValueBooleanMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/ruleService/src/main/resources/mapping/mysql/RuleValueDateMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/ruleService/src/main/resources/mapping/mysql/RuleValueDaterangeMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/ruleService/src/main/resources/mapping/mysql/RuleValueListMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/ruleService/src/main/resources/mapping/mysql/RuleValueNumberMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/ruleService/src/main/resources/mapping/mysql/RuleValueNumberrangeMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/ruleService/src/main/resources/mapping/mysql/RuleValueStringMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/ruleService/src/main/resources/mapping/mysql/SysRuleaccessLogMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/ruleService/src/main/resources/mycat/dev/rule.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/ruleService/src/main/resources/mycat/dev/schema.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/ruleService/src/main/resources/mycat/dev/server.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/ruleService/src/main/resources/solr/data-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/ruleService/src/main/resources/solr/ik-analyzer-7.7.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/ruleService/src/main/resources/solr/managed-schema" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/ruleService/src/main/resources/solr/mysql-connector-java-5.1.30.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/ruleService/src/main/resources/solr/solr-dataimporthandler-8.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/ruleService/src/main/resources/solr/solr-dataimporthandler-extras-8.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/ruleService/src/main/resources/solr/solrconfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/ruleService/src/main/resources/sql/dbserver1/mycat_test/mycat_test.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/ruleService/src/main/resources/sql/dbserver1/mycat_test2/mycat_test2.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/ruleService/src/main/resources/sql/dbserver1/mycat_test3/mycat_test3.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsg-cdss/ruleService/src/main/resources/sql/dbserver2/mycat_test2/mycat_test2.sql" beforeDir="false" />
+    </list>
+    <list id="aee47f38-6e2c-4ec7-a7cf-c5822cc0d15b" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="zhulin" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../jsg-cdss" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/Program Files/apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="D:\Program Files\apache-maven-3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+    <option name="enabledProfiles">
+      <list>
+        <option value="jdk-1.8" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/../dzjkk/dzfb-health-card/.idea/dzfb-health-card.iml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1dU44tdbMmWokVwM3oUeFyfGDIu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../jsg-cdss" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.jsg.dzfbhealthcard.config" />
+      <recent name="com.jsg.dzfbhealthcard.util" />
+      <recent name="com.jsg.dzfbhealthcard.model" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\serverenvironment\workspace\idea\dzfb-health-card\src\main\resources" />
+      <recent name="E:\serverenvironment\workspace\idea\dzfb-health-card\src\main\java\com\jsg\dzfbhealthcard" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.LoginServiceApplication">
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="dzfb-health-card" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="dzfb-health-card" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="config" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jsg.ConfigApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GeneralServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="generalService" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jsg.GeneralServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KlgbaseServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="klgbaseService" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jsg.KlgbaseServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="loginService" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jsg.LoginServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NursingServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="nursing-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jsg.nursingservice.NursingServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProxyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="proxy" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jsg.ProxyApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegistryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="registry" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jsg.RegistryApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SystemServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="systemService" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jsg.SystemServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aee47f38-6e2c-4ec7-a7cf-c5822cc0d15b" name="Default Changelist" comment="" />
+      <created>1566961307935</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1566961307935</updated>
+      <workItem from="1566961309379" duration="2480000" />
+      <workItem from="1567039826298" duration="16361000" />
+      <workItem from="1567223908759" duration="20048000" />
+      <workItem from="1567298582757" duration="12804000" />
+      <workItem from="1572483149267" duration="763000" />
+      <workItem from="1572828293954" duration="493000" />
+      <workItem from="1572836917932" duration="626000" />
+      <workItem from="1572848506810" duration="12521000" />
+      <workItem from="1572916736782" duration="19209000" />
+      <workItem from="1573005734131" duration="13909000" />
+      <workItem from="1573092987573" duration="9072000" />
+      <workItem from="1573205805795" duration="1322000" />
+      <workItem from="1573302005369" duration="1131000" />
+      <workItem from="1574305234810" duration="102000" />
+      <workItem from="1575262967980" duration="663000" />
+      <workItem from="1575269618116" duration="865000" />
+      <workItem from="1575443120907" duration="5037000" />
+      <workItem from="1575468395136" duration="1339000" />
+      <workItem from="1575508315621" duration="6577000" />
+      <workItem from="1575622761169" duration="670000" />
+      <workItem from="1575682701616" duration="496000" />
+      <workItem from="1575684230430" duration="7427000" />
+      <workItem from="1575768765128" duration="1573000" />
+      <workItem from="1575778429363" duration="10000" />
+      <workItem from="1575882765736" duration="6384000" />
+      <workItem from="1575940378767" duration="1616000" />
+      <workItem from="1576048171729" duration="7146000" />
+      <workItem from="1576112395125" duration="16021000" />
+      <workItem from="1576157193160" duration="248000" />
+      <workItem from="1576206420395" duration="4906000" />
+      <workItem from="1576243627361" duration="3193000" />
+      <workItem from="1576461305676" duration="1712000" />
+      <workItem from="1577173704399" duration="81000" />
+      <workItem from="1577174030805" duration="1630000" />
+      <workItem from="1585188509394" duration="663000" />
+      <workItem from="1585900897332" duration="1196000" />
+      <workItem from="1590571380876" duration="7896000" />
+      <workItem from="1590827388149" duration="2633000" />
+      <workItem from="1591088754473" duration="1486000" />
+      <workItem from="1591921449281" duration="662000" />
+      <workItem from="1592466152595" duration="12702000" />
+      <workItem from="1592528557088" duration="28895000" />
+      <workItem from="1592615000836" duration="22927000" />
+      <workItem from="1592648162062" duration="4597000" />
+      <workItem from="1592663068506" duration="7875000" />
+      <workItem from="1592709034771" duration="880000" />
+      <workItem from="1592787127749" duration="3264000" />
+      <workItem from="1592790482142" duration="24169000" />
+      <workItem from="1592817024780" duration="1887000" />
+      <workItem from="1592819010746" duration="457000" />
+    </task>
+    <task id="LOCAL-00001" summary="宣汉妇保健康卡">
+      <created>1567326312267</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1567326312267</updated>
+    </task>
+    <task id="LOCAL-00002" summary="宣汉妇保健康卡">
+      <created>1567326457151</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1567326457151</updated>
+    </task>
+    <task id="LOCAL-00003" summary="宣汉妇保健康卡">
+      <created>1567326476134</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1567326476134</updated>
+    </task>
+    <task id="LOCAL-00004" summary="宣汉妇保健康卡">
+      <created>1572868554105</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1572868554105</updated>
+    </task>
+    <task id="LOCAL-00005" summary="宣汉妇保健康卡">
+      <created>1573099563502</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1573099563502</updated>
+    </task>
+    <task id="LOCAL-00006" summary="宣汉妇保健康卡">
+      <created>1576248022823</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1576248022823</updated>
+    </task>
+    <task id="LOCAL-00007" summary="springboot + mybatis plus">
+      <created>1592811169285</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1592811169285</updated>
+    </task>
+    <task id="LOCAL-00008" summary="springboot + mybatis plus">
+      <created>1592811401641</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1592811401641</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+      <path value="$PROJECT_DIR$/../barcode_system" />
+      <path value="$PROJECT_DIR$/../demo" />
+      <path value="$PROJECT_DIR$/../git-root" />
+      <path value="$PROJECT_DIR$/../jsg-cdss" />
+    </ignored-roots>
+    <MESSAGE value="宣汉妇保健康卡" />
+    <MESSAGE value="springboot + mybatis plus" />
+    <option name="LAST_COMMIT_MESSAGE" value="springboot + mybatis plus" />
+  </component>
+</project>

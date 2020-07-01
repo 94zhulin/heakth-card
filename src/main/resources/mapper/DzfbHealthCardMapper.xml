@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jsg.dzfbhealthcard.dao.DzfbHealthCardDao">
+
+    <select id="queryHealthCardByBrid" resultType="java.util.HashMap" parameterType="String">
+        select * from(
+            SELECT * FROM GYB_BRYLKXX
+             WHERE BRID = #{brid} AND YLJGBM = #{yljgbm} and ylklx = '011' and length(ylkh) &gt;= 64 order by jkrq desc
+            ) where rownum = 1
+    </select>
+
+</mapper>
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,52 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.jsg.dzfbhealthcard.util.PropConf",
+      "name": "jsg.healthcard",
+      "type": "com.jsg.dzfbhealthcard.util.PropConf"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.jsg.dzfbhealthcard.util.PropConf",
+      "name": "jsg.healthcard.a-e-skey",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.jsg.dzfbhealthcard.util.PropConf",
+      "name": "jsg.healthcard.a-e-skey",
+      "description": "AES key",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.jsg.dzfbhealthcard.util.PropConf",
+      "name": "jsg.healthcard.m-d5-key",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.jsg.dzfbhealthcard.util.PropConf",
+      "name": "jsg.healthcard.m-d5-key",
+      "description": "MD5 key",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.jsg.dzfbhealthcard.util.PropConf",
+      "name": "jsg.healthcard.scurl",
+      "description": "健康卡上传地址",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.jsg.dzfbhealthcard.util.PropConf",
+      "name": "jsg.healthcard.terminalcode",
+      "description": "组织机构代码",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.jsg.dzfbhealthcard.util.PropConf",
+      "name": "jsg.healthcard.url",
+      "description": "接口地址",
+      "type": "java.lang.String"
+    }
+  ]
+}
